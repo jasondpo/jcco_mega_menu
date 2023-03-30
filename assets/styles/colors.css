@@ -1,0 +1,22 @@
+:root {
+    --blueSky: #5192F1;
+    --blueSearch: #478bf1;
+    --blueLight: #14468C;
+    --blueMed: #16325C;
+    --blueDark: #0E1E41;
+    --blueLink:#0076EB;
+    --blueTextGhost:#A6C6F2;
+    --linkSelected:rgba(60, 132, 233, 1);
+    --textBody:#323232;
+    --textGhost:#9A9A9A;
+    --iconGold:#CAAD70;
+    --iconGreen:#96AC5F;
+    --hrLightGrey:#e1e1e1;
+    --hrDarkGrey:#AEAEAE;
+    --bkgGrey:#F6F6F6;
+    --bkgBeige:#F2EBDB;
+    --white:#FFFFFF;
+    --glassGrey:rgba(245,245,245,.95);
+    --red:#BF0E3F;
+    --menuDarkGrey:#30343B; 
+}
