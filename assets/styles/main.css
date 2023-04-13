@@ -9,7 +9,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 62.5%;
   letter-spacing: .03em;
 }
 
@@ -308,9 +308,7 @@ span:focus {
   transform-origin: center;
   display: flex;
   color: var(--blueTextGhost);
-  font-size: 15px;
   font-weight: 300;
-  text-transform: capitalize;
   transition: transform .15s ease-in;
 }
 
@@ -322,13 +320,19 @@ span:focus {
   opacity: 1;
 }
 
-.lg-btn-overlap .lg-sq-btn .sq-btn-label span {
-  /*-- Main Text --*/
+.lg-btn-overlap .lg-sq-btn .sq-btn-label div {
+  font-size: 1.5rem;
+  text-transform: inherit;
+}
+
+.lg-btn-overlap .lg-sq-btn .sq-btn-label div span {
+  /*-- Title Text --*/
   display: block;
   box-sizing: border-box;
-  font-size: 18px;
+  text-transform: capitalize;
+  font-size: 1.8rem;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .lg-btn-overlap .lg-sq-btn .sq-btn-label div {
@@ -387,7 +391,7 @@ span:focus {
 }
 
 .lg-btn-overlap .sq-btn-grid-4 img {
-  max-width: 68px;
+  max-width: 5.8rem;
 }
 
 .lg-btn-overlap .sq-btn-grid-4 div {

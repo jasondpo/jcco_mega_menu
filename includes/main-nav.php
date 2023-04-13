@@ -171,46 +171,6 @@
 
                 <li><a href="#" class="mobile-menu-center-header">Forms</a></li>
 
-
-                <!-- <li class="mega-drop-down"><a href="#" class="mobile-menu-center-header triggerOverlay">Forms<i class="fa-solid fa-caret-down"></i></a>
-                    
-                    <div class="single-mega-menu marriage-license-top-border-color">
-                        <div class="row">
-
-                            <div class="single-column col-border-right">
-                                <ul class="column-list">
-                                    <li><a href="#">Notary Commission</a></li>
-                                    <li><a href="#">Recording / Indexing</a></li>
-                                    <li><a href="#">ClerkAlert</a></li>
-                                    <li><a href="#">Recording Requirements</a></li>
-                                    <li><a href="#">Marriage License FAQ</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="single-column">
-                                <ul class="column-list">
-                                    <li><a href="#">2021 Jefferson County Delinquent Property Listing</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="single-column col-border-right">
-                                <div class="menu-column-img">
-                                    <div class="menu-col-btn"><span>ClerkAlert</span></div>
-                                    <img class="img-responsive" src="http://localhost:8888/jcco/header_test_1-31-23/assets/images/menu-wedding-ring.jpg">
-                                </div>
-                            </div>
-
-                            <div class="single-column">
-                                <div class="menu-column-img">
-                                    <div class="menu-col-btn"><span>Form 2</span></div>
-                                    <img class="img-responsive" src="http://localhost:8888/jcco/header_test_1-31-23/assets/images/menu-wedding-ring.jpg">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </li> -->
-
                 
                 <li class="mega-drop-down selected-live-chat-btn"><a href="#" class="mobile-menu-center-header triggerOverlay">Live Chat <i class="fa-solid fa-caret-down"></i></a>
                     <div class="single-mega-menu live-chat-top-border-color">

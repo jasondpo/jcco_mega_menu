@@ -70,7 +70,7 @@
                     <img src="assets/images/lg_squares/speech_bubble.svg">
                     <div>
                         <span>Feedback</span>
-                        Rate Our Services
+                        Rate our services
                     </div>
                 </div>
             </a> 
@@ -80,7 +80,7 @@
                     <img src="assets/images/lg_squares/locator_pin.svg">
                     <div>
                         <span>Locations</span>
-                        find Clerk Offices
+                        Find Clerk Offices
                     </div>
                 </div>
             </a>
@@ -100,7 +100,7 @@
                     <img src="assets/images/lg_squares/election_icon.svg">
                     <div>
                         <span>Register to Vote</span>
-                        Get Registered Here
+                        Get registered here
                     </div>
                 </div>                
             </a>

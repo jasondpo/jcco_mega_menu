@@ -77,8 +77,7 @@
           display: block;
           top:calc(50% - 13px);
           transform: translateY(-50%);
-          font-size: 13px;
-          font-weight: 500;
+          font-weight: 600;
           color:var(--blueLight);
 
         span{
@@ -90,6 +89,7 @@
           a{
             text-decoration: none;
             color: var(--blueLight);
+            font-size: 1.4rem;
           }
 
           a:hover{
@@ -166,7 +166,6 @@
             
             a{
               color:var(--blueLight);
-              font-size: 14px;
               text-decoration:none;
               position: relative;
               display: block;
@@ -174,6 +173,7 @@
 
               span{
                 display: block;
+                font-size: 1.4rem;
                 padding: 10px 0 10px 0;
                 transition: background-color .15s linear;
               }
@@ -276,8 +276,8 @@
             color: var(--white);
             text-decoration: none;
             text-transform: capitalize;
-            font-weight: 500;
-            font-size: 18px; 
+            font-weight: 400;
+            font-size: 1.8rem; 
             letter-spacing: .04em;
             white-space: nowrap;
         }
@@ -377,6 +377,7 @@
           padding: 0 0 0 5px;
           color:#7c7c7c;
           font-weight: 400;
+          font-size: 1.4rem;
           line-height: 1.5em;
           letter-spacing: .03em;
 
@@ -431,6 +432,7 @@
             
             span{
               color:var(--textGhost);
+              font-size: 1.4rem;
             }
 
             span:before{
@@ -876,7 +878,10 @@
     position: absolute;
     opacity: .8;
     display: block;
-    inset: 0px -2px -5px -2px;
+    height: 52px;
+    left:0;
+    right:0;
+    top:0;
     border-radius: 0;
     background-color: var(--blueMed);
   }
