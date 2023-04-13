@@ -15,11 +15,6 @@ var header = (function(){
         if(getScreenWidth() > 990){
             
             $(".dark-transparent-screen-overlay").fadeIn("fast");
-            selectedBtn.style.setProperty("--linkSelected", "rgba(60, 132, 233, 0)");
-            mainNavItem.each(function(){
-                $(this).css("opacity",".4");
-            })
-                $(this).css("opacity","1");
         }
     })
 
@@ -68,7 +63,6 @@ var header = (function(){
     // Change colors after scrolled set distance
     let throttleTimer;
     let navBarColor = $(".top-header-main-nav-wrapper");
-    let mainHero = $(".j-container:first");
     // let mainHero = $("#bloc-1");
 
     const throttle = (callback, time) => {
@@ -86,12 +80,10 @@ var header = (function(){
 
     function navBarColorChange() {
         let scrollPos = window.pageYOffset;
-        if(scrollPos > 120 && getScreenWidth() > 960){
-            mainHero.addClass("marginTop");
+        if(scrollPos > 30 && getScreenWidth() > 960){
             navBarColor.addClass("main-nav-scrolled");
         }else{
             navBarColor.removeClass("main-nav-scrolled");
-            mainHero.removeClass("marginTop");
         };
     }
 

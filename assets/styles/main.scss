@@ -4,7 +4,7 @@
 --------------------------------------------------------------*/
 
 body, html{
-    height: 2000px;
+    height: 2000px; // Comment out before loading to blocs
 }
 
 *{
@@ -24,6 +24,7 @@ body, html{
     box-sizing: border-box;
 }
 
+
 span:focus{ // Remove after blocs search is intsalled
     outline: none;
     border-top-style: hidden;
@@ -37,7 +38,7 @@ span:focus{ // Remove after blocs search is intsalled
 }
 
 .pt-15{
-    padding: 15px 15px;
+    padding: 195px 15px 15px 15px;
 }
 
 .pt-25{

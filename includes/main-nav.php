@@ -1,4 +1,5 @@
 <?php opcache_reset(); ?>
+
 <div class="top-header-main-nav-wrapper">
 
     <div class="jd-container">
@@ -25,7 +26,7 @@
         <!-- Main Navigation -->
         <div class="mega-menu-container-row">
             <div class="dark-transparent-screen-overlay"></div>
-            <ul class="mega-menu-container"> 
+            <ul class="mega-menu-container triggerOverlay"> 
 
                 <li><a href="#" class="mobile-menu-center-header selected-menu-btn">Home</a></li>
 

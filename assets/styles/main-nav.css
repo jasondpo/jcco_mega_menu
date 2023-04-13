@@ -1,11 +1,12 @@
 @charset "UTF-8";
 .top-header-main-nav-wrapper {
-  position: relative;
+  position: fixed;
   height: 180px;
   background-color: var(--blueSky);
+  top: 0;
   left: 0;
   right: 0;
-  transition: background-color .1s linear;
+  transition: background-color .1s linear, top .15s linear;
   z-index: 7;
   /*hover*/
 }
@@ -120,7 +121,7 @@
   transform: translateX(-50%);
   width: 100%;
   max-width: 328px;
-  height: auto;
+  height: 60px;
   cursor: pointer;
 }
 
@@ -227,7 +228,10 @@
 .top-header-main-nav-wrapper .dark-transparent-screen-overlay {
   z-index: 1;
   position: fixed;
-  inset: 0 0 0 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: none;
   backdrop-filter: blur(2px);
   background-color: rgba(7, 15, 26, 0.8);
@@ -796,11 +800,11 @@
   color: var(--blueLight);
 }
 
-.main-nav-scrolled:hover .mega-menu-container > li > a {
+.main-nav-scrolled .mega-menu-container:hover > li > a {
   color: var(--white) !important;
 }
 
-.main-nav-scrolled:hover .mega-menu-container > li a i {
+.main-nav-scrolled .mega-menu-container:hover > li > a i {
   color: var(--white);
 }
 
